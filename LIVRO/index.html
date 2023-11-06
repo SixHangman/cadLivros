@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="gif/Felinus_29.webp" style="width:30%">
+    <img src="" style="width:50%">
+    <img src="" style="width:19%">
+    <h1>Cadastro e Pesquisa de Livros</h1>
+ <div id="cadastro">
+        <h2>Cadastro do Livro</h2>
+        <form id="cadastroForm">
+            <label for="descricao">Descricao:</label>
+            <input type="text" id="descricao" name="descricao" required><br>
+
+            <label for="isbn">Isbn:</label>
+            <input type="text" id="isbn" name="isbn" required><br>
+
+            <button type="submit">💾Cadastrar</button>
+            <button type="button" onclick="atualizarJogo()">(☞ﾟヮﾟ)☞Atualizar</button>
+            <button type="submit" onclick="deletarJogo()">⚠Deletar</button>
+        </form>
+    </div>
+
+    <div id="pesquisa">
+        <h2>Pesquisa do Livro</h2>
+        <form id="pesquisaForm">
+            <label for="searchId">ID do Livro:</label>
+            <input type="text" id="searchId" name="searchId"><br>
+
+            <button type="button" onclick="pesquisarJogo()">Pesquisar</button>
+        </form>
+        <div id="resultadoPesquisa"></div>
+        </div>
+
+        <script src="js/script.js"></script>
+
+        <img src="" style="width:60%">
+</body>
+</html>
